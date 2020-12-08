@@ -20,3 +20,6 @@ To launch script print in Shell:
 ## DailyGeoJSON.sh
 This [script](https://github.com/MariiaChernysh/Binom-API-Bash/blob/main/DailyGeoJSON.sh) returns JSON file. It contains data on how traffic was distributed by geos for every campaign in a specific date. This way one can see "Live" data. 
 Here I should explain what Live data in this case is. Binom puts Late Sales not in the date they were made, but to the Lead|Registration date. So you won't see reliable historical data in your tracker. On the contrary, every day the manager will see different KPI on every day that campaigns were running. This script daily scrapes the data for the specific date(e.g. yesterday) and saves it in GCS. This way saving the data on the daily basis will create a dataset with only Live data. 
+
+## DailyGeoCSV.sh
+This [script]() does exactly same job as DailyGeoJSON.sh but produces csv output. Because of Binoms' json stucture(listing objects instead of nesting data) and data enrichment,  csv transformation is part of a parsing loop.
