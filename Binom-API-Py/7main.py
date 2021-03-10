@@ -17,8 +17,8 @@ print('Run by params: Month {}, Year {}, Camp ID {}, Filename {}'
 
 # constants
 SERVICE_LINK = 'https://jump-track.com/panel.php'
-API_KEY = '100000168fd005590885005858f496ef9156be3'
-#old 400000186519bf346f766422bb62481aac9b014
+API_KEY = '$$$$$$$$$$$$$$'
+#old '$$$$$$$$$$$$$$'
 CSV_NAMES = ['ID', 'Date', 'Campaign', 'Country', 'Visits', 'Clicks', 'Leads', 'Deposit', 'Revenue', 'Cost',
              'Profit', 'MB', 'Traffic.Source', 'Traffic.Type', 'Top']
 
