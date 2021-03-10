@@ -18,7 +18,7 @@ print('Run by params: Month {}, Year {}, Camp From {}, Camp To {}, Camp Add {}, 
       .format(args.month, args.year, args.camp_from, args.camp_to, args.camp_add, args.filename))
 
 # constants
-SERVICE_LINK = 'https://jump-track.com/panel.php'
+SERVICE_LINK = 'https://link/panel.php'
 API_KEY = '$$$$$$$$$$$$$$$$$$$$'
 CSV_NAMES = ['ID', 'Date', 'Campaign', 'Country', 'Visits', 'Clicks', 'Leads', 'Deposit', 'Revenue', 'Cost',
              'Profit', 'MB', 'Traffic.Source', 'Traffic.Type', 'Top']
