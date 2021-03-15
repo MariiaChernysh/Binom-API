@@ -1,0 +1,13 @@
+[[source]]
+name = "imb"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "==2.25.0"
+pandas = "==1.1.5"
+
+[requires]
+python_version = "3.8"
