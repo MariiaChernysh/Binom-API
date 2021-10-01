@@ -17,6 +17,9 @@ The next step(optional) is to install gsutil, gloud and google-cloud-storage via
 > 
 > pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
+If "pip install" still doesn't work try: 
+> py -m pip install gsutil
+> 
 Make sure to authorize both in gcloud & gsutil. Print in cmd.exe and follow the instructions:
 
 >gcloud init
