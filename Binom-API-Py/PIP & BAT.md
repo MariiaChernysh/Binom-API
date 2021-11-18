@@ -7,6 +7,7 @@ If you want .bat file with py program to work properly, change your PATH variabl
 > setx PATH "%PATH%; ...../Scripts/python.exe"
 
 The next step(optional) is to install gsutil, gloud and google-cloud-storage via terminal
+>#add "py -m" before "pip install..." if 'pip' is not recognized as an internal or external command
 > pip install gsutil
 > 
 > pip install gcloud
